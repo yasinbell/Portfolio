@@ -1,0 +1,105 @@
+{
+
+    margin: 0;
+    padding: 0;
+    font-family: san-serif;
+
+
+}
+
+.hero.{
+    position:relative
+    width: 100%;
+    height:100vh;
+    background: #eff4fe;
+
+}
+
+nav{
+    display: flex;
+    width: 85%;
+    margin:auto;
+    padding: 20px 0;
+    align-items:center;
+    justify-content: space-between
+
+}nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold ;
+}
+
+nav ul li a:hover{
+    color: brown;
+}
+
+.detel{
+    margin-left:8%;
+    margin-top:15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color:black;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.detel p{
+    color: #555
+    line-height:22px;
+}
+
+.detel a{
+       background: grey;
+       padding: 10px 18px;
+       text-decoration: none;
+       font-weight: bold;
+       color: white;
+       display: inline-block;
+       margin: 30px 0;
+       border-radius: 5px;
+
+}
+
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom is, left is;
+
+
+}
+
+.image:hover .shape{
+    bottom: 40px;
+}
+
+image:hover .girl{
+    left:45%
+}
+
+
+
+// decrease size of logo, add headshot, attach cv, attach link to cv, add pages
